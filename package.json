@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npx tsx set-env.ts && ng build",
     "build:prod": "npx tsx set-env.ts && ng build",
     "set-env": "npx tsx set-env.ts",
     "watch": "ng build --watch --configuration development",
