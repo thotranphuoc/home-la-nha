@@ -43,3 +43,6 @@ Thumbs.db
 
 # Local environment overrides (copy environment.ts to environment.local.ts and set Supabase keys)
 src/environments/environment*.local.ts
+# Sensitive environments
+src/environments/environment.ts
+src/environments/environment.production.ts

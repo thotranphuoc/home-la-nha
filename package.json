@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "npx tsx set-env.ts && ng build",
+    "set-env": "npx tsx set-env.ts",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -28,6 +30,7 @@
     "zone.js": "~0.15.1"
   },
   "devDependencies": {
+    "tsx": "^4.19.2",
     "@angular-devkit/build-angular": "^21.1.4",
     "@angular/cli": "^21.1.4",
     "@angular/compiler-cli": "^21.1.5",
